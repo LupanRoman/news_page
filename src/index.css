@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Inter';
+}
+
+.nav-links {
+  position: fixed;
+  right: -100%;
+}
+
+.nav-links.active {
+  position: absolute;
+  background-color: hsl(36, 100%, 99%);
+  right: 0;
+  top: 0;
+  width: 60vw;
+  height: 100vh;
+}
+
+
+
+.list li {
+  cursor: pointer;
+}
+
+.list li:hover {
+ color: hsl(35, 77%, 62%);
+}
