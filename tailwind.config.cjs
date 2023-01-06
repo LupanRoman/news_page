@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'soft orange': 'hsl(35, 77%, 62%)',
+        'soft-orange': 'hsl(35, 77%, 62%)',
         'soft-red': 'hsl(5, 85%, 63%)',
         'off-white': 'hsl(36, 100%, 99%)',
         'gray-blue': 'hsl(233, 8%, 79%)',
@@ -13,6 +13,10 @@ module.exports = {
       },
       height: {
         'nav': '10vh',
+        'height': '60vh'
+      },
+      width: {
+        'news': '70vw'
       },
     },
   },

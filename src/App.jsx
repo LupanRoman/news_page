@@ -2,6 +2,8 @@ import React from 'react';
 import Logo from './assets/logo.svg';
 import Menu from './assets/icon-menu.svg';
 import CloseMenu from './assets/icon-menu-close.svg';
+import News from './News';
+import Topics from './Topics';
 
 const App = () => {
   const openMenu = () => {
@@ -48,7 +50,10 @@ const App = () => {
             </ul>
           </div>
         </div>
-        <div className="content"></div>
+        <div className="content">
+        <News />
+        <Topics />
+        </div>
       </div>
     </>
   );
